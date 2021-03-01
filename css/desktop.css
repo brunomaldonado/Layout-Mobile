@@ -1,0 +1,115 @@
+header {
+  position: relative;
+  flex-direction: row;
+  height: 250px;
+  width: auto;
+
+}
+
+header img {
+  position: absolute;
+  width: 220px;
+  height: 150px;
+  margin: 0;
+  left: 20px;
+}
+
+.header--title-container {
+  position: absolute;
+  right: calc(50% - 40px);
+  margin-top: 80px;
+}
+
+.header--title-container h1 {
+  font-size: 2.8rem;
+  width: 475px;
+}
+
+.header--title-container p {
+  font-size: 2rem;
+  width: 475px;
+}
+
+.header--title-container .header--button {
+  position: relative;
+  left: calc(35%);
+  top: 20px;
+  padding: 15px;
+  width: 280px;
+  height: 48px;
+  font-size: 1.8rem;
+  line-height: 0.8;
+}
+
+.main-exchange-container {
+  display: flex;
+  position: relative;
+  width: auto;
+  text-align: center;
+}
+
+.main-exchange-container .backgroundImg {
+  position: absolute;
+  top: 280px;
+  left: calc(40%);
+}
+
+.main-exchange-container-title {
+  position: absolute;
+}
+
+.main-exchange-container-title h2 {
+  width: 1024px;
+  font-size: 2.8rem;
+}
+
+.main-exchange-container-title p {
+  width: 1024px;
+  font-size: 1.7rem;
+}
+
+.main-tables-container {
+  position: relative;
+  margin-top: 140px;
+  gap: 230px;
+}
+
+.bitcoin-img-container {
+  background-image: url(../assets/img/Learn-Bitcoin.jpeg) no repeat center/cover;
+  background-attachment: fixed;
+}
+
+.main-plans-container {
+  box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.5);
+}
+
+.product-cards--container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: auto;
+  margin: 0 auto;
+}
+
+.plans-container--slider {
+  justify-content: center;
+  overflow-x: unset;
+}
+
+#btn-prev,
+#btn-next {
+  display: none;
+}
+
+footer section {
+  width: 20%;
+}
+
+footer section li {
+  font-size: 1.8rem;
+}
+
+footer section img {
+  margin-left: 600%;
+}
+
+/*  */
