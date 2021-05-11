@@ -1,0 +1,39 @@
+.nav-menu {
+  /* width: 1024px; */
+  height: 80px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.nav-menu img {
+  height: 80px;
+  width: 80px;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.nav-items a {
+  font-size: 1.8rem;
+}
+
+.text-container{
+  width: 60%;
+}
+
+.text-container p {
+  font-size: 2.4rem;
+  padding: 25px;
+}
+.title-container{
+  position: absolute;
+  top: 130px;
+}
+.title-container img{
+  width: 90px;
+  height: 90px;
+  background-color: rgb(248, 247, 245);
+  border-radius: 150px;
+}

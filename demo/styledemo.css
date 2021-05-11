@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: rgb(218, 207, 182);
+  font-size: 62.5%;
+}
+
+.nav-menu {
+  min-width: 320px;
+  height: 35px;
+  /* background-color: rosybrown; */
+  background-image: url(./photos&images/digital-art-simple-background.jpg);
+  /* background-image: url(./photos&images/menu.png); */
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.nav-menu img {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 150px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+/* ================================================ */
+/* .nav-menu ul.nav-items{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #2f3640;
+  height: 100%;
+  padding: 30px;
+  opacity: .9;
+  margin-left: 20px;
+  list-style-type: none;
+  transform: translateX(-400px);
+  transition: transform .4s ease-in-out;
+}
+.nav-menu ul.nav-items.show{
+  transform: translateX(-20px);
+} 
+
+.nav-items li a{
+  color: aliceblue;
+  font-size: 1.6rem;
+  text-decoration: none;
+  line-height: 3rem;
+} 
+*/
+
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-items li {
+  list-style-type: none;
+}
+
+.nav-items a {
+  display: block;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 5px 13px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav-items li:hover,
+.nav-items li:active {
+  background-color: rgba(65, 61, 61, 0.7);
+  border-radius: 5px;
+}
+
+
+.btn-menu {
+  position: relative;
+  display: block;
+  top: 0;
+  margin-right: 20px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+
+/* ------------------------- Widgets Social------------------------------- */
+
+.widget-social {
+  display: flex;
+  float: right;
+  font-size: 1.2rem;
+  justify-content: space-around;
+  /* border: 2px solid black; */
+}
+
+.widget-social {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+  background-color: rgba(240, 248, 255, 0.884);
+}
+
+.widget-social i {
+  padding: 10px;
+}
+
+.fa-twitter:hover {
+  background-color: #00acee;
+  color: white;
+}
+
+.fa-youtube:hover {
+  background-color: #c4302b;
+  color: white;
+}
+
+.fa-linkedin-in:hover {
+  background-color: #0e76a6;
+  color: white;
+}
+
+.fa-facebook-f:hover {
+  background-color: #3b5998;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: auto;
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 80px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-image: url(./photos&images/klipartz.com2.png);
+  background-size: cover;
+}
+/* 
+.text-container p {
+  font-size: 1.1rem;
+  padding: 15px;
+} */
+
+.title-container {
+  position: absolute;
+  top: 110px;
+}
+
+.title-container img {
+  width: 50px;
+  height: 50px;
+  background-color: blanchedalmond;
+  border-radius: 150px;
+}
+
+.gif img {
+  margin-top: 50px;
+  display: flex;
+  margin: 30px auto;
+  width: 80%;
+}
+
+/* Small devices (Landscape phones, 576px and up) */
+/* @media (min-width:576px){...} */
+@media (max-width:765px) {
+  .nav-menu ul.nav-items {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    height: 100%;
+    padding: 30px;
+    opacity: .9;
+    margin-left: 20px;
+    list-style-type: none;
+    transform: translateX(-400px);
+    transition: transform .4s ease-in-out;
+  }
+
+  .nav-menu ul.nav-items.show {
+    transform: translateX(-20px);
+  }
+
+  .nav-items li a {
+    color: aliceblue;
+    font-size: 1.6rem;
+    text-decoration: none;
+    line-height: 3rem;
+  }
+
+  .nav-items li a {
+    color: aliceblue;
+    font-size: 14px;
+  }
+
+  .text-container p {
+    font-size: 1.4rem;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,38 @@
+.main-tables-container {
+  display: flex;
+  width: 768px;
+  margin: 0 auto;
+}
+
+.product-cards--container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 768px;
+  margin: 0 auto;
+}
+
+.plans-container--slider {
+  justify-content: center;
+}
+
+.plans-container--slider {
+  justify-content: center;
+  overflow-x: unset;
+}
+
+#btn-prev,
+#btn-next {
+  display: none;
+}
+
+footer section {
+  width: 30%;
+}
+
+footer section li {
+  font-size: 1.8rem;
+}
+
+footer section img {
+  margin-left: 300%;
+}

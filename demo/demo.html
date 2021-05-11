@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Bumr">
+  <meta name="robots" content="Follows, html">
+  <meta name="description" content="Responsive Desing with images">
+  <title>Responsive Images</title>
+  <link rel="stylesheet" href="./styledemo.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../fontawesome-free-5.15.2-web/css/all.css">
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+</head>
+
+<body>
+  <div class="c-nav-menu">
+    <nav class="nav-menu">
+      <a class="logo" href="../index.html"><img src="./photos&images/Whoiam.jpg" alt="Bumr">AIBumr</a>
+      <ul class="nav-items">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Portafolio</a></li>
+        <li><a href="">Projects</a></li>
+      </ul>
+      <div class="btn-menu">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+  </div>
+
+  <div class="widget-social">
+    <a href="https://twitter.com/login?redirect_after_login=https%3A%2F%2Fads.twitter.com%2Flogin&hide_message=1"
+      target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
+      target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="#"></a></li>
+  </div>
+
+  <main>
+
+    <div class="text-container">
+      <p>Que tal, Buen dia <strong>Champions</strong>. Este es un Demo de unos de los proyectos que tengo en
+        mente. Si
+        llegaste hasta aqui quiero felicitarte por tu tiempo y en poder pinchar el link recibido...
+        <strong>Exito</strong> hasta luego.
+      </p>
+    </div>
+    
+    <picture>
+      <source media="(min-width:992px)" srcset="./photos&images/.png">
+      <source media="(min-width:768px)" srcset="./photos&images/Robot.png">
+      <source media="(min-width:475px)" srcset="./photos&images/.png">
+    </picture>
+   
+    <div class="gif">
+      <img src="./gif/79Oq.gif" alt="Drone">
+    </div>
+  </main>
+  <script src="./demo.js"></script>
+</body>
+
+</html>
